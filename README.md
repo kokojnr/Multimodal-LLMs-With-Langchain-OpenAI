@@ -1,4 +1,5 @@
-# Building Multimodal LLM Applications
+# 🧠🎥 Multimodal LLMs with OpenAI & LangChain
+
 
 This project demonstrates how to build generative AI applications for multimodal tasks using OpenAI and LangChain.  
 It transcribes text from a video or audio file and allows users to ask context-aware questions about the transcribed content using a chat model.
@@ -15,7 +16,7 @@ All video and audio content used in this project is sourced from the [Internet A
 
 This project is intended for developers who want to explore practical implementations of multimodal large language models (LLMs) and build intelligent systems that understand both audio and text data.
 
-## Key Features
+## ⚙️ Key Features
 
 - Automatic speech-to-text transcription using OpenAI.
 - Contextual question-answering using LangChain and OpenAI chat models.
@@ -24,7 +25,7 @@ This project is intended for developers who want to explore practical implementa
 - Compatible with local files or online video/audio links.
 - Lightweight, easy to extend, and developer-friendly.
 
-## Tech Stack
+## 🧰 Tech Stack
 
 - OpenAI API (`gpt-4o-mini`, `gpt-4o-mini-transcribe`)  
 - LangChain  
@@ -34,33 +35,35 @@ This project is intended for developers who want to explore practical implementa
 - Datalab / DataCamp Notebook environment  
 - Git and GitHub for version control  
 
-## Project Structure
-files/
-├── audio/ # Stores extracted or uploaded audio files
-├── transcripts/ # Stores transcription outputs
-├── notebook.ipynb # Datalab notebook where the project workflow is implemented
-└── requirements.txt # Dependency file
+### 🗂️ Project Structure
 
-## Setup and Installation
+**Folder layout:**
+
+| Path | Description |
+|------|--------------|
+| `files/audio/` | Stores extracted or uploaded audio files |
+| `files/transcripts/` | Stores transcription outputs |
+| `notebook.ipynb` | Datalab notebook implementing the multimodal workflow |
+| `requirements.txt` | Lists all required dependencies |
+
+
+
+### 🏗️ Setup and Installation
 
 1. Clone the repository: 
-
-  ```bash
    git clone https://github.com/your-username/Multimodal-LLMs-With-Langchain-OpenAI.git
 
 2. Navigate into the project directory:
-
 cd Multimodal-LLMs-With-Langchain-OpenAI
 
 3. Install dependencies:
-
 pip install -r requirements.txt
 
 4. Add your OpenAI API key as an environment variable:
-
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 5. Open the notebook (notebook.ipynb) to run the workflow interactively.
+
 
 ## Usage Example
 
@@ -83,4 +86,5 @@ Developers are welcome to contribute improvements, such as better error handling
 ## License
 
 This project is open for educational and experimental use.
+
 
